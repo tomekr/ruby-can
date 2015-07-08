@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'bindata'
-gem 'rbkb'
+# Specify your gem's dependencies in ruby_can.gemspec
+gemspec
