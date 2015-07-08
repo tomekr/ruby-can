@@ -5,6 +5,6 @@ class CanPacket < BinData::Record
 
   uint32 :can_id
   uint8  :can_dlc
-  array  :data, :initial_length => :len
+  array  :data, :initial_length => :can_dlc
 end
 
