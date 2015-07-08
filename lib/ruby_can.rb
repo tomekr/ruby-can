@@ -1,5 +1,4 @@
 require 'socket'
-require 'rbkb'
 require_relative 'ruby_can/can_socket.rb'
 require_relative 'ruby_can/can_packet.rb'
 
