@@ -7,8 +7,8 @@ As an example, to start listening on vcan0 do the following
 
 Gem Setup
 ---
-gem build ruby_can.gemspec
-gem install ruby_can-0.0.1.gem
+`gem build ruby_can.gemspec`
+`gem install ruby_can-0.0.1.gem`
 
 
 Cucumber Tests
