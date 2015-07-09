@@ -6,7 +6,7 @@ require 'ruby_can/version'
 Gem::Specification.new do |spec|
   spec.name          = "ruby_can"
   spec.version       = RubyCan::VERSION
-  spec.authors       = ["Thomas Rabczak","Craig Smith"]
+  spec.authors       = ["Tomek Rabczak","Craig Smith"]
   spec.email         = ["craig@theailabs.com"]
   spec.summary       = %q{ruby_can - Raw CAN Bus Module}
   spec.description   = %q{ruby_can - Raw library for listening and sending CAN bus packets over SocketCAN}
@@ -24,6 +24,5 @@ Gem::Specification.new do |spec|
 
   # Not just for dev, but used by cucumber
   spec.add_development_dependency('bindata', '~> 2.1')
-  spec.add_development_dependency('rbkb', '0.7.2')
 
 end
