@@ -8,6 +8,6 @@ Vagrant.configure(2) do |config|
       vb.memory = "1024"
   end
 
-  config.vm.provision :shell, :path => "bootstrap.sh"
-  config.vm.provision :shell, :path => "install-rvm.sh"
+  config.vm.provision :shell, :path => "vagrant_scripts/bootstrap.sh"
+  config.vm.provision :shell, :path => "vagrant_scripts/install-rvm.sh"
 end
